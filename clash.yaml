@@ -136,42 +136,23 @@ Proxy:
   port: 443
   password: v2rayssr.com
   
-# Trojan
-  - name: "GCP-HK-trojan"
-    type: trojan
-    server: blog.yourgk.com
-    port: 443
-    password: MonvPWmi
-    # udp: true
-    # sni: example.com # 服务名称
-    # alpn:
-    #   - h2
-    #   - http/1.1
-    # skip-cert-verify: true
+- name: "GCP-HK-trojan"
+  type: trojan
+  server: blog.yourgk.com
+  port: 443
+  password: MonvPWmi
 
-  - name: "AWS-HK-trojan"
-    type: trojan
-    server: hk.yourgk.com
-    port: 443
-    password: 0798ecc2
-    # udp: true
-    # sni: example.com # 服务名称
-    # alpn:
-    #   - h2
-    #   - http/1.1
-    # skip-cert-verify: true
+- name: "AWS-HK-trojan"
+  type: trojan
+  server: hk.yourgk.com
+  port: 443
+  password: 0798ecc2
 
-  - name: "LITING-Linode"
-    type: trojan
-    server: support.yourgk.com
-    port: 443
-    password: ad40383c
-    # udp: true
-    # sni: example.com # 服务名称
-    # alpn:
-    #   - h2
-    #   - http/1.1
-    # skip-cert-verify: true
+- name: "LITING-Linode"
+  type: trojan
+  server: support.yourgk.com
+  port: 443
+  password: ad40383c
  
 ###############################################################配置分割线
 
